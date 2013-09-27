@@ -3,7 +3,7 @@
 namespace MaillogImporter\Writer;
 
 /**
- * Email log writer for MySQL
+ * Email log writer for MySQL/MariaDB
  */
 
 class MySql implements WriterInterface
