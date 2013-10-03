@@ -6,8 +6,7 @@ define('AUTOLOAD_BASE_DIR', dirname(__DIR__));
  * Autoloader
  */
 
-function __autoload($name)
-{
+spl_autoload_register(function($name) {
     if (!is_string($name)) {
         throw new AutloaderException('Invalid class specified for loading.');
     }
@@ -18,7 +17,7 @@ function __autoload($name)
     }
 
     require_once $fileName;
-}
+});
 
 class AutloaderException extends Exception {}
 
