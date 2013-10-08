@@ -6,4 +6,4 @@ The application can be used to parse the lines of the mail.log file and import t
 
 **Usage: `php ./maillog-importer.php /var/log/mail.log`**
 
-Please have a quick look at the files in the "config" directory before using this tool.
+Please have a quick look at the files in the "configs" directory before using this tool.
