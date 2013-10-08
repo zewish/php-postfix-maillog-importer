@@ -4,6 +4,9 @@ This is a simple command-line utility that when used will import the statuses of
 
 The application can be used to parse the lines of the mail.log file and import them into a database storage - the currently supported database storages are MongoDB or MySQL/MariaDB.
 
-**Usage: `php ./maillog-importer.php /var/log/mail.log`**
+```bash
+# Example usage:
+php ./maillog-importer.php /var/log/mail.log
+```
 
 Please have a quick look at the files in the "configs" directory before using this tool.
