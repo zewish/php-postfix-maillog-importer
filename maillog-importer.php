@@ -12,7 +12,7 @@ $maillogFile = Config('Main')->defaultMaillogFile;
 // Print some help or set some settings
 if (!empty($argv[1])) {
     if ($argv[1] == '--help' || $argv[1] == '-h') {
-        println('Usage: php maillog-parser.php [path_to_maillog_file]');
+        println('Usage: php maillog-importer.php [path_to_maillog_file]');
         println('This script is used to prase maillog data and write it to Db.');
         exit(0);
     }
